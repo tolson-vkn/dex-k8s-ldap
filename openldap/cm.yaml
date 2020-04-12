@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: openldap-env
+  namespace: kube-auth
+  labels:
+    app: openldap
+data:
+  LDAP_BACKEND: hdb
+  LDAP_DOMAIN: example.com
+  LDAP_ORGANISATION: Example Inc.
+  LDAP_REMOVE_CONFIG_AFTER_SETUP: "true"
+  LDAP_TLS: "true"
+  LDAP_TLS_ENFORCE: "false"

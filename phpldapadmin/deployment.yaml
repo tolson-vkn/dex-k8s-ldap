@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: phpldapadmin
+  labels:
+    app: phpldapadmin
+  namespace: kube-auth
+spec:
+  replicas: 1
+  strategy: {}
+  selector:
+    matchLabels:
+      app: phpldapadmin
+  template:
+    metadata:
+      labels:
+        app: phpldapadmin
+    spec:
+      securityContext:
+        runAsUser: 0
+      containers:
+        - name: phpldapadmin
+          image: osixia/phpldapadmin:latest
+          imagePullPolicy: Always
+          env:
+            - name: PHPLDAPADMIN_LDAP_HOSTS
+              value: "openldap.kube-auth.svc.cluster.local"
+            - name: PHPLDAPADMIN_HTTPS
+              value: "False"

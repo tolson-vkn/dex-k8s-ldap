@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: quake-projects
+  labels:
+    group: quake
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1beta1
+metadata:
+  name: quake
+  namespace: quake-projects
+rules:
+- apiGroups: ["", "extensions", "apps"]
+  resources: ["*"]
+  verbs: ["*"]
+- apiGroups: ["batch"]
+  resources:
+  - jobs
+  - cronjobs
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rolebinding-quake-projects
+  namespace: quake-projects
+subjects:
+- kind: Group
+  name: quake
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: quake
+  apiGroup: rbac.authorization.k8s.io
+---
+

@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: hephaestus-projects
+  labels:
+    group: hephaestus
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1beta1
+metadata:
+  name: hephaestus
+  namespace: hephaestus-projects
+rules:
+- apiGroups: ["", "extensions", "apps"]
+  resources: ["*"]
+  verbs: ["*"]
+- apiGroups: ["batch"]
+  resources:
+  - jobs
+  - cronjobs
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rolebinding-hephaestus-projects
+  namespace: hephaestus-projects
+subjects:
+- kind: Group
+  name: hephaestus
+  apiGroup: rbac.authorization.k8s.io
+# FOOBAR-1337 - Embedded into team to help complete
+# Web UI changes. END 06/24/2020
+- kind: User
+  name: ecarter@example.com
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: hephaestus
+  apiGroup: rbac.authorization.k8s.io
+---
+

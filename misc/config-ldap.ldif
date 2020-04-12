@@ -1,0 +1,475 @@
+# People definitions!
+# Think of as all employees
+
+dn: ou=People,dc=example,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: cn=jsmith,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: smit
+cn: jame
+mail: jsmith@example.com
+userpassword: password
+
+dn: cn=mjohnson,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: johnson
+cn: mary
+mail: mjohnson@example.com
+userpassword: password
+
+dn: cn=jwilliams,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: williams
+cn: john
+mail: jwilliams@example.com
+userpassword: password
+
+dn: cn=pjones,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: jones
+cn: patricia
+mail: pjones@example.com
+userpassword: password
+
+dn: cn=rbrown,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: brown
+cn: robert
+mail: rbrown@example.com
+userpassword: password
+
+dn: cn=jdavis,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: davis
+cn: jennifer
+mail: jdavis@example.com
+userpassword: password
+
+dn: cn=mmiller,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: miller
+cn: michael
+mail: mmiller@example.com
+userpassword: password
+
+dn: cn=lwilson,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: wilson
+cn: linda
+mail: lwilson@example.com
+userpassword: password
+
+dn: cn=wmoore,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: moore
+cn: william
+mail: wmoore@example.com
+userpassword: password
+
+dn: cn=etaylor,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: taylor
+cn: elizabeth
+mail: etaylor@example.com
+userpassword: password
+
+dn: cn=danderson,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: anderson
+cn: david
+mail: danderson@example.com
+userpassword: password
+
+dn: cn=bthomas,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: thomas
+cn: barbara
+mail: bthomas@example.com
+userpassword: password
+
+dn: cn=rjackson,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: jackson
+cn: richard
+mail: rjackson@example.com
+userpassword: password
+
+dn: cn=swhite,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: white
+cn: susan
+mail: swhite@example.com
+userpassword: password
+
+dn: cn=jharris,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: harris
+cn: joseph
+mail: jharris@example.com
+userpassword: password
+
+dn: cn=jmartin,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: martin
+cn: jessica
+mail: jmartin@example.com
+userpassword: password
+
+dn: cn=tthompson,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: thompson
+cn: thomas
+mail: tthompson@example.com
+userpassword: password
+
+dn: cn=sgarcia,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: garcia
+cn: sarah
+mail: sgarcia@example.com
+userpassword: password
+
+dn: cn=cmartinez,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: martinez
+cn: charles
+mail: cmartinez@example.com
+userpassword: password
+
+dn: cn=krobinson,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: robinson
+cn: karen
+mail: krobinson@example.com
+userpassword: password
+
+dn: cn=cclark,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: clark
+cn: christopher
+mail: cclark@example.com
+userpassword: password
+
+dn: cn=nrodriguez,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: rodriguez
+cn: nancy
+mail: nrodriguez@example.com
+userpassword: password
+
+dn: cn=dlewis,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: lewis
+cn: daniel
+mail: dlewis@example.com
+userpassword: password
+
+dn: cn=mlee,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: lee
+cn: margaret
+mail: mlee@example.com
+userpassword: password
+
+dn: cn=mwalker,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: walker
+cn: matthew
+mail: mwalker@example.com
+userpassword: password
+
+dn: cn=lhall,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: hall
+cn: lisa
+mail: lhall@example.com
+userpassword: password
+
+dn: cn=aallen,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: allen
+cn: anthony
+mail: aallen@example.com
+userpassword: password
+
+dn: cn=byoung,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: young
+cn: betty
+mail: byoung@example.com
+userpassword: password
+
+dn: cn=dhernandez,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: hernandez
+cn: donald
+mail: dhernandez@example.com
+userpassword: password
+
+dn: cn=dking,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: king
+cn: dorothy
+mail: dking@example.com
+userpassword: password
+
+dn: cn=mwright,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: wright
+cn: mark
+mail: mwright@example.com
+userpassword: password
+
+dn: cn=slopez,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: lopez
+cn: sandra
+mail: slopez@example.com
+userpassword: password
+
+dn: cn=phill,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: hill
+cn: paul
+mail: phill@example.com
+userpassword: password
+
+dn: cn=ascott,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: scott
+cn: ashley
+mail: ascott@example.com
+userpassword: password
+
+dn: cn=sgreen,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: green
+cn: steven
+mail: sgreen@example.com
+userpassword: password
+
+dn: cn=kadams,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: adams
+cn: kimberly
+mail: kadams@example.com
+userpassword: password
+
+dn: cn=abaker,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: baker
+cn: andrew
+mail: abaker@example.com
+userpassword: password
+
+dn: cn=dgonzalez,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: gonzalez
+cn: donna
+mail: dgonzalez@example.com
+userpassword: password
+
+dn: cn=knelson,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: nelson
+cn: kenneth
+mail: knelson@example.com
+userpassword: password
+
+dn: cn=ecarter,ou=People,dc=example,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+sn: carter
+cn: emily
+mail: ecarter@example.com
+userpassword: password
+
+# Group definitions!
+
+dn: ou=Groups,dc=example,dc=com
+objectClass: organizationalUnit
+ou: Groups
+
+# Only these people are admins/SRE!
+
+dn: cn=admins,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: admins
+member: cn=jsmith,ou=People,dc=example,dc=com
+member: cn=mjohnson,ou=People,dc=example,dc=com
+member: cn=jwilliams,ou=People,dc=example,dc=com
+member: cn=pjones,ou=People,dc=example,dc=com
+member: cn=rbrown,ou=People,dc=example,dc=com
+
+# Everyone is a developer!
+# This is a default group.
+
+dn: cn=developers,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: developers
+member: cn=jsmith,ou=People,dc=example,dc=com
+member: cn=mjohnson,ou=People,dc=example,dc=com
+member: cn=jwilliams,ou=People,dc=example,dc=com
+member: cn=pjones,ou=People,dc=example,dc=com
+member: cn=rbrown,ou=People,dc=example,dc=com
+member: cn=jdavis,ou=People,dc=example,dc=com
+member: cn=mmiller,ou=People,dc=example,dc=com
+member: cn=lwilson,ou=People,dc=example,dc=com
+member: cn=wmoore,ou=People,dc=example,dc=com
+member: cn=etaylor,ou=People,dc=example,dc=com
+member: cn=danderson,ou=People,dc=example,dc=com
+member: cn=bthomas,ou=People,dc=example,dc=com
+member: cn=rjackson,ou=People,dc=example,dc=com
+member: cn=swhite,ou=People,dc=example,dc=com
+member: cn=jharris,ou=People,dc=example,dc=com
+member: cn=jmartin,ou=People,dc=example,dc=com
+member: cn=tthompson,ou=People,dc=example,dc=com
+member: cn=sgarcia,ou=People,dc=example,dc=com
+member: cn=cmartinez,ou=People,dc=example,dc=com
+member: cn=krobinson,ou=People,dc=example,dc=com
+member: cn=cclark,ou=People,dc=example,dc=com
+member: cn=nrodriguez,ou=People,dc=example,dc=com
+member: cn=dlewis,ou=People,dc=example,dc=com
+member: cn=mlee,ou=People,dc=example,dc=com
+member: cn=mwalker,ou=People,dc=example,dc=com
+member: cn=lhall,ou=People,dc=example,dc=com
+member: cn=aallen,ou=People,dc=example,dc=com
+member: cn=byoung,ou=People,dc=example,dc=com
+member: cn=dhernandez,ou=People,dc=example,dc=com
+member: cn=dking,ou=People,dc=example,dc=com
+member: cn=mwright,ou=People,dc=example,dc=com
+member: cn=slopez,ou=People,dc=example,dc=com
+member: cn=phill,ou=People,dc=example,dc=com
+member: cn=ascott,ou=People,dc=example,dc=com
+member: cn=sgreen,ou=People,dc=example,dc=com
+member: cn=kadams,ou=People,dc=example,dc=com
+member: cn=abaker,ou=People,dc=example,dc=com
+member: cn=dgonzalez,ou=People,dc=example,dc=com
+member: cn=knelson,ou=People,dc=example,dc=com
+member: cn=ecarter,ou=People,dc=example,dc=com
+
+# Managers are also members of team groups
+# making them good candiates to see a lot of
+# group matching.
+
+dn: cn=managers,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: managers
+member: cn=jdavis,ou=People,dc=example,dc=com
+member: cn=mmiller,ou=People,dc=example,dc=com
+member: cn=lwilson,ou=People,dc=example,dc=com
+member: cn=wmoore,ou=People,dc=example,dc=com
+
+# Teams
+
+dn: cn=polaris,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: polaris
+member: cn=jdavis,ou=People,dc=example,dc=com
+member: cn=etaylor,ou=People,dc=example,dc=com
+member: cn=danderson,ou=People,dc=example,dc=com
+member: cn=bthomas,ou=People,dc=example,dc=com
+member: cn=rjackson,ou=People,dc=example,dc=com
+
+dn: cn=lambda,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: lambda
+member: cn=jdavis,ou=People,dc=example,dc=com
+member: cn=swhite,ou=People,dc=example,dc=com
+member: cn=jharris,ou=People,dc=example,dc=com
+member: cn=jmartin,ou=People,dc=example,dc=com
+
+dn: cn=gravity,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: gravity
+member: cn=mmiller,ou=People,dc=example,dc=com
+member: cn=tthompson,ou=People,dc=example,dc=com
+member: cn=sgarcia,ou=People,dc=example,dc=com
+member: cn=cmartinez,ou=People,dc=example,dc=com
+member: cn=krobinson,ou=People,dc=example,dc=com
+
+dn: cn=hephaestus,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: hephaestus
+member: cn=mmiller,ou=People,dc=example,dc=com
+member: cn=cclark,ou=People,dc=example,dc=com
+member: cn=nrodriguez,ou=People,dc=example,dc=com
+member: cn=dlewis,ou=People,dc=example,dc=com
+member: cn=mlee,ou=People,dc=example,dc=com
+
+dn: cn=uac,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: uac
+member: cn=lwilson,ou=People,dc=example,dc=com
+member: cn=mwalker,ou=People,dc=example,dc=com
+member: cn=lhall,ou=People,dc=example,dc=com
+member: cn=aallen,ou=People,dc=example,dc=com
+member: cn=byoung,ou=People,dc=example,dc=com
+member: cn=dhernandez,ou=People,dc=example,dc=com
+member: cn=dking,ou=People,dc=example,dc=com
+
+dn: cn=quake,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: quake
+member: cn=wmoore,ou=People,dc=example,dc=com
+member: cn=mwright,ou=People,dc=example,dc=com
+member: cn=slopez,ou=People,dc=example,dc=com
+member: cn=phill,ou=People,dc=example,dc=com
+member: cn=ascott,ou=People,dc=example,dc=com
+
+dn: cn=zeratul,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: zeratul
+member: cn=wmoore,ou=People,dc=example,dc=com
+member: cn=sgreen,ou=People,dc=example,dc=com
+member: cn=kadams,ou=People,dc=example,dc=com
+member: cn=abaker,ou=People,dc=example,dc=com
+member: cn=dgonzalez,ou=People,dc=example,dc=com
+
+dn: cn=xen,ou=Groups,dc=example,dc=com
+objectClass: groupOfNames
+cn: xen
+member: cn=wmoore,ou=People,dc=example,dc=com
+member: cn=knelson,ou=People,dc=example,dc=com
+member: cn=ecarter,ou=People,dc=example,dc=com

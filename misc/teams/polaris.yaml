@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: polaris-projects
+  labels:
+    group: polaris
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1beta1
+metadata:
+  name: polaris
+  namespace: polaris-projects
+rules:
+- apiGroups: ["", "extensions", "apps"]
+  resources: ["*"]
+  verbs: ["*"]
+- apiGroups: ["batch"]
+  resources:
+  - jobs
+  - cronjobs
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rolebinding-polaris-projects
+  namespace: polaris-projects
+subjects:
+- kind: Group
+  name: polaris
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: polaris
+  apiGroup: rbac.authorization.k8s.io
+---
+
